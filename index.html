@@ -2,17 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title >Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World</h1>
+    <!--<h1>Hello World</h1>
     <h1>Hello World, we are software developers!</h1>
+    -->
+    <h1 id="title"> Servey Form </h1>
+<p id="description" >the survey explanation </p>
+<form id="survey-form" >
+<input type="text" id="name" placeholder ="Type your name" required ><label id="name-label">Name</label>
+<input type="email" id="email"  placeholder ="Type your email" required ><label id="email-label">Email</label>
+<input type="number" placeholder="Type your age" min="16" max="100" id="number" number ><label id="number-label">Number</label>
+
+<select id="dropdown">
+  <option >One</option>
+  <option >Two</option>
+</select>
+
+
+  <label for="male">Male
+   <input id="male" type="radio" name="male" value="male">
+ </label>
+ <label for="female">Female
+   <input id="female" type="radio" name="male" value="female">
+ </label>
+      <label for="other">Other
+   <input id="other" type="radio" name="male" value="other">
+ </label>
+
+ <label for="one">One
+  <input id="male" type="checkbox" name="male" value="male">
+</label>
+<label for="two">Two
+  <input id="female" type="checkbox" name="male" value="female">
+</label>
+     <label for="three">Three
+  <input id="other" type="checkbox" name="male" value="other">
+</label>
+
+<label for="comments">additional comments:</label>
+<textarea id="comments" name="comment" rows="4" cols="50">
+ 
+</textarea>
+<input type="submit" id="submit">
 
 
 
+</form>
 
 
     <!--
